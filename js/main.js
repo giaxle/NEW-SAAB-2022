@@ -1,31 +1,31 @@
 const committeeData = [
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "President",
     linkedIn: "",
   },
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: " Vice President",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "Secretary",
     linkedIn: "",
   },
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "Student Ambassador",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "Alumni Ambassador",
     linkedIn: "",
   },
@@ -34,49 +34,49 @@ const committeeData = [
 const boardMembersData = [
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "John Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
   {
     name: "Jane Doe",
-    img: "../img/placeholder.png",
+    img: "https://giaxle.github.io/NEW-SAAB-2022/img/placeholder.png",
     title: "",
     linkedIn: "",
   },
@@ -104,7 +104,7 @@ function createCard(data) {
   profileName.innerText = data.name;
   title.innerText = data.title;
   link.href = data.linkedIn;
-  linkedInImg.src = "../img/linkedin.png";
+  linkedInImg.src = "https://giaxle.github.io/NEW-SAAB-2022/img/linkedin.png";
 
   // append elements
   card.appendChild(profilePic);
