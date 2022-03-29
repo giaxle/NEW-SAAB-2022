@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+h4 {
+  margin-bottom: 10px !important;
+}
+
+.business-header {
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  /* background: url('../img/SAAB Banner 2022.jpg') center center no-repeat scroll; */
+  background-color: #620000;
+  width: 1000px;
+  -moz-background-size: 1170px;
+  background-size: 1170px;
+  position: relative;
+  color: white;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+  text-shadow: 0 0 10px #000;
+  color: #fff;
+  bottom: 10;
+  text-align: right;
+  position: absolute;
+  right: 50px;
+  top: 15000px;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+small {
+  color: #fff !important;
+}
+footer {
+  margin: 50px 0;
+}
+
+ul li {
+  text-transform: inherit;
+  text-align: justify;
+}
+
+footer {
+  background-color: #620000;
+  color: #fff;
+  height: 50px;
+  border-radius: 4px;
+  padding: 15px 0px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#committee,
+#boardMembers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  /* max-width: 900px; */
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.profileCard {
+  width: 150px;
+  text-align: center;
+  font-size: medium;
+  margin: 2rem;
+}
+
+.profilePic {
+  width: 150px;
+}
+
+.nameTitleContainer {
+  padding-top: 1rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.linkedInImg {
+  width: 150px;
+}
